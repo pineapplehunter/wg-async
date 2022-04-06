@@ -17,6 +17,10 @@ edit-url-template = "https://github.com/rust-lang/wg-async/tree/master/{path}?mo
 [output.html.fold]
 enable = true
 level = 0
+
+[output.html.playground]
+runnable = false
+
 [preprocessor]
 [preprocessor.mermaid]
 command = "mdbook-mermaid"
